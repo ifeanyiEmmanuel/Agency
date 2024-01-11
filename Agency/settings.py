@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m1$a8m^z374@ug)p^+e0-8x@n=@2nw2!+ov)tt85odhxivd=n2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['agency-screecher-c05f39c7b854.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -144,14 +144,14 @@ LOGOUT_REDIRECT_URL = 'home'
 MEDIA_URL ='media/'
 MEDIA_ROOT =os.path.join(BASE_DIR,'media')
 
-"""
-CSRF_TRUSTED_ORIGINS = ['https://agency-sigma-blush.vercel.app',"http://127.0.0.1:8000"]
+
+CSRF_TRUSTED_ORIGINS = ['https://agency-screecher-c05f39c7b854.herokuapp.com',"http://127.0.0.1:8000"]
 
 
 
 
 CORS_ALLOWED_ORIGINS = [
-   "https://agency-sigma-blush.vercel.app",
+   "https://agency-screecher-c05f39c7b854.herokuapp.com",
     "http://127.0.0.1:8000",
 ]
-"""
+
